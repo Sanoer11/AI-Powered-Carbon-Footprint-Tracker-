@@ -1,0 +1,68 @@
+{
+  "commute": {
+    "petrol_car": {
+      "factor": 0.192,
+      "unit": "kg_CO2e_per_km",
+      "description": "Standard internal combustion engine petrol passenger vehicle"
+    },
+    "diesel_car": {
+      "factor": 0.175,
+      "unit": "kg_CO2e_per_km",
+      "description": "Standard diesel passenger vehicle"
+    },
+    "ev_car": {
+      "factor": 0.055,
+      "unit": "kg_CO2e_per_km",
+      "description": "Electric vehicle calculated against average grid power emissions"
+    },
+    "motorcycle": {
+      "factor": 0.065,
+      "unit": "kg_CO2e_per_km",
+      "description": "Two-wheeler petrol motorbike or scooter"
+    },
+    "bus": {
+      "factor": 0.032,
+      "unit": "kg_CO2e_per_km",
+      "description": "Average local public transit bus per passenger km"
+    },
+    "metro_train": {
+      "factor": 0.025,
+      "unit": "kg_CO2e_per_km",
+      "description": "Electric rapid transit metro per passenger km"
+    }
+  },
+  "electricity": {
+    "grid_default": {
+      "factor": 0.710,
+      "unit": "kg_CO2e_per_kWh",
+      "description": "Regional grid electricity average dominated by thermal power generation"
+    },
+    "solar_rooftop": {
+      "factor": 0.045,
+      "unit": "kg_CO2e_per_kWh",
+      "description": "Lifecycle emissions of residential solar photovoltaic installations"
+    }
+  },
+  "food": {
+    "heavy_meat": {
+      "factor": 3.30,
+      "unit": "kg_CO2e_per_meal",
+      "description": "Meals centering around red meat, beef, or lamb"
+    },
+    "low_meat_poultry": {
+      "factor": 1.40,
+      "unit": "kg_CO2e_per_meal",
+      "description": "Meals containing poultry, pork, or seafood with moderate dairy"
+    },
+    "vegetarian": {
+      "factor": 0.80,
+      "unit": "kg_CO2e_per_meal",
+      "description": "Meat-free meals utilizing dairy, grains, vegetables, and legumes"
+    },
+    "vegan": {
+      "factor": 0.50,
+      "unit": "kg_CO2e_per_meal",
+      "description": "Purely plant-based meals completely free of animal products"
+    }
+  }
+}
